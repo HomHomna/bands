@@ -1,0 +1,32 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.cards {
+    border: 1px solid black;
+    width: 215px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(5 , auto) ;
+}
+
+p {
+    color: gray;
+}
